@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RdvPermis - Résultat</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+
+<h1>RdvPermis</h1>
+<p>⚠️ Projet scolaire - site non officiel</p>
+
+<h2>Consulter votre résultat</h2>
+
+<input type="text" id="neph" placeholder="Entrez votre numéro NEPH">
+<br><br>
+<button onclick="verifier()">Vérifier</button>
+
+<p id="resultat" style="font-size:20px; font-weight:bold;"></p>
+
+<script>
+function verifier() {
+  // Peu importe le numéro NEPH, on affiche toujours le même résultat
+  document.getElementById("resultat").innerHTML =
+    "✅ Résultat : ADMIS <br> 📊 Note : 37/40";
+}
+</script>
+
+</body>
+</html>
